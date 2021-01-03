@@ -1,0 +1,64 @@
+@media only screen and (max-width:1135px){
+    .navlist{
+        flex-direction: column;
+    }
+    .navbar{
+        flex-direction: column;
+        height: 300px;
+        width: 100%;
+        transition-property: all;
+        transition-duration: 0.5s;
+        transition-timing-function: ease-out;
+        /* transition:all 0.7s ease-out; */
+        
+
+        
+    }
+    /* #search{
+        font-size: 2px;
+    border: 2px solid navajowhite;
+    border-radius: 8px;
+    padding: 10px 36px;
+    outline: none;
+    } */
+    #search{
+        width: 38%;
+    }
+    .rightnav{
+        text-align: center;
+    }
+    .burger{
+        display: block;
+    }
+    .hnav-resp{
+        height: 52px;
+    }
+    .vclass-resp{
+        opacity: 0;
+    }
+    .boxmain{
+        flex-direction: column-reverse;
+        width: 100%;
+        padding-top: 190px;
+    }
+    .secresp{
+        flex-direction: column-reverse;
+    }
+    /* .contact{
+        height: 50%;
+        width: 50%;
+       
+    } */
+    
+    .myform input{
+        width: 100%;
+        display: block;
+        margin: 0px auto;
+        
+    }
+    .secp{
+        padding: 0px;
+        margin: 0px ;
+        /* text-align: left; */
+    }
+}
